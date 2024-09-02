@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ailton Jr</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <main class="principal">
+    <nav>
+      <div class="logo">
+        Ailton Júnior
+      </div>
+      <ul>
+        <li><a href="#mim">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <section id="mim" class="sobre">
+      <img src="igm.JPG" alt="">
+      <aside>
+        <h1>Desenvolvedor</h1>
+        <h1> de <span style="color: yellow;">Sistemas</span> </h1>
+        <p>Meu nome é Ailton tenho 35 anos, sou apaixonado por tecnologia, tenho conhecimentos para produzir sites tanto no Frontend como no Backend. Alguns de meus  hobbies são cantar, tocar violão.</p>
+      </aside>
+    </section>
+    <section id="formacao" class="formacao">
+      <h1>Formação</h1>
+      <p>Estou cursando Análise e Desenvolvimento de Sistemas no Centro Universitário
+        - UNINTER, onde tenho desenvolvido habilidades para construção de Websites, minhas habilidades não se restringem apenas em codar, também sou um cara que tem empatia, comunicativo, responsável.</p>
+      <div class="habilidades">
+        <div>
+          <i class="fa-brands fa-html5"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-css3-alt"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-js"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h1>Portfólio</h1>
+      <div class="container-portfolio">
+        <div class="projeto">
+          <img src="site.JPG" alt="">
+          <div class="content">
+            <p>Projeto Site de Casamento</p>
+            <a target="_blank" href="https://site-de-casamento2.vercel.app/"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="projeto">
+          <img src="site2.png" alt="">
+          <div class="content">
+            <p>API Cadastro de Usuários</p>
+            <a target="_blank" href="https://github.com/AiltonJunior1989/cadastroDeUsuariosExpressNodeReact"><i
+                class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contato" class="contato">
+      <h1>Contato</h1>
+      <form action="#">
+        <label for="name">Nome:</label>
+        <input id="name" type="text">
+
+        <label for="email">Email:</label>
+        <input id="email" type="email">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="" id="mensagem"></textarea>
+        <button>Enviar</button>
+      </form>
+      <footer>
+        <ul>
+          <li><a target="_blank" href="https://www.instagram.com/ailtonjmjunior/"><i
+                class="fa-brands fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://wa.me/5535999697937"><i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/ailton-j%C3%BAnior/"><i
+                class="fa-brands fa-linkedin"></i></i></a></li>
+        </ul>
+      </footer>
+    </section>
+    <div onclick="irTopo()" class="topo">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
